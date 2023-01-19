@@ -1,6 +1,8 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QMainWindow, QLabel, QPushButton, QMessageBox, QLineEdit, QBoxLayout
 from PyQt5.QtGui import QIcon
+import os
+import pandas as pd
 
 def dialog0():
   inbox = ID.text()
